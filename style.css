@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:mistyrose;
+    width: 50vh;
+}
+.title{
+    background-color:teal;
+    height: 6vh;
+    width: 13vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 5px;
+    
+}
+.title:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav-item-1{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.dashboard{
+    height: 30px;
+    margin-right: 10px;
+ }
+.nav-item-2{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.reading{
+    height: 30px;
+    margin-right: 10px;
+ }
+.nav-item-3{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.teaching{
+    height: 30px;
+    margin-right: 10px;
+}
+.nav-item-4{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.classforum{
+    height: 30px;
+    margin-right: 10px;
+}
+.nav-item-5{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.progress{
+    height: 30px;
+    margin-right: 10px;
+}
+.nav-item-6{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.dairy{
+    height: 30px;
+    margin-right: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+.setting-tab{
+    background-color:whitesmoke ;
+    height: 100vh;
+    width: 83vw;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding-right: 60px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.heading{
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-section{
+    display: flex;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    top: 5%;
+    right: 3%;
+}
+.pp{
+   height: 8vh;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+.flag{
+    height: 30px;
+    margin-right: 10px;
+}
+.bell-icon{
+    height: 40px;
+    margin-right: 10px;
+}
+.person-name{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-family: monospace;
+    color:dodgerblue;
+}
+.details-1{
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image{
+    height: 13vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.change-picture{
+    color:teal;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.details-2-1{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.first-name{
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.first-name-input{
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.details-2-2{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row; 
+    
+}
+.last-name{
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.last-name-input{
+    border-radius: 5px;
+    margin-left: 14px;
+}
+.birthday{
+    margin-left: 30px;
+}
+.birthday-heading{
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.bdate{
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 10vw;
+}
+.numberinput{
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+.mobile-no{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.input{
+    border-radius: 5px;
+    margin-left: 150px;
+    height: 3vh;
+    width: 15vw;
+}
+.email-input{
+    position: relative;
+    top: 38%;
+    left: 5%;
+}
+.email{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.emailinput{
+    margin-left: 200px;
+    border-radius: 5px;
+    height: 3vh;
+    width: 15vw;
+}
+.oldpassword{
+    position: relative;
+    top: 41%;
+    left: 5%;
+}
+.old-password{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.oldpasswordinput{
+    margin-left: 115px;
+    border-radius: 5px;
+    height: 3vh;
+    width: 15vw;
+}
+.newpassword{
+    position: relative;
+    top: 44%;
+    left: 5%;
+}
+.new-password{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.newpasswordinput{
+    margin-left: 105px;
+    border-radius: 5px;
+    height: 3vh;
+    width: 15vw;
+}
+.conformpassword{
+    position: relative;
+    top: 47%;
+    left: 5%;
+}
+.conform-password{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.conformpasswordinput{
+    margin-left: 58px;
+    border-radius: 5px;
+    height: 3vh;
+    width: 15vw;
+}
+.apply{
+    background-color:orangered;
+    height: 6vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55%;
+    left: 30%;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+.apply:hover{
+    background-color:teal;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.cancel{
+    background-color:seagreen;
+    height: 6vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 49%;
+    left: 50%;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+.cancel:hover{
+    background-color:mediumturquoise;
+    cursor: pointer;
+}
+.chatbot{
+    width: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
